@@ -19,7 +19,7 @@
   "scripts": {
     "clean": "rimraf lib",
     "start": "node_modules/react-native/packager/packager.sh",
-    "build": "babel src --out-dir lib",
+    "build": "babel src --out-dir lib && cp ./lib/Slider.js ~/code/quo-mobile/node_modules/react-native-slider/lib/Slider.js && cp ./src/Slider.js ~/code/quo-mobile/node_modules/react-native-slider/src/Slider.js",
     "prepublish": "npm run clean && npm run build"
   },
   "repository": {
