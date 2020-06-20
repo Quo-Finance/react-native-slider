@@ -1,5 +1,5 @@
 {
-  "name": "react-native-slider",
+  "name": "quo-react-native-slider",
   "version": "0.11.0",
   "description": "A pure JavaScript <Slider /> component for react-native",
   "main": "lib/Slider.js",
@@ -7,7 +7,7 @@
     "lib",
     "src"
   ],
-  "author": "Jean Regisser <jean.regisser@gmail.com> (https://github.com/jeanregisser)",
+  "author": "Tucker Haas <tucker@quo.com> (https://github.com/kthaas)",
   "keywords": [
     "react-component",
     "react-native",
@@ -19,7 +19,7 @@
   "scripts": {
     "clean": "rimraf lib",
     "start": "node_modules/react-native/packager/packager.sh",
-    "build": "babel src --out-dir lib && cp ./lib/Slider.js ~/code/quo-mobile/node_modules/react-native-slider/lib/Slider.js && cp ./src/Slider.js ~/code/quo-mobile/node_modules/react-native-slider/src/Slider.js",
+    "build": "babel src --out-dir lib && cp ./lib/Slider.js ~/code/quo-mobile/node_modules/quo-react-native-slider/lib/Slider.js && cp ./src/Slider.js ~/code/quo-mobile/node_modules/quo-react-native-slider/src/Slider.js",
     "prepublish": "npm run clean && npm run build"
   },
   "repository": {

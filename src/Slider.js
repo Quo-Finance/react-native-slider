@@ -197,7 +197,7 @@ export default class Slider extends PureComponent {
     trackSize: { width: 0, height: 0 },
     thumbSize: { width: 0, height: 0 },
     allMeasured: false,
-    value: new Animated.Value(this.props.value),
+    value: this.props.value,
   };
 
   componentWillMount() {
